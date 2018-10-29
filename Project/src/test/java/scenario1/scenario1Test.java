@@ -13,7 +13,7 @@ public class scenario1Test {
 	public void setUp() {
 		System.setProperty("webdriver.chrome.driver", "C:\\automation\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.navigate().to("Http://google.Com/");
+		driver.navigate().to("http://google.Com/");
 		
 	}
 	
